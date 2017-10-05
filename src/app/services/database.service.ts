@@ -11,11 +11,11 @@ export class DatabaseService {
   constructor(private http: Http) { }
 
   saveData(data: object) {
-      return this.http.post('https://first-project-21048.firebaseio.com/people.json', data);
+      return this.http.post('https://httpdb-adc48.firebaseio.com/people.json', data);
   }
 
   getData() {
-      return this.http.get('https://first-project-21048.firebaseio.com/people.json')
+      return this.http.get('https://httpdb-adc48.firebaseio.com/people.json')
       .map(
         (response: Response) => {
             const data = response.json();

@@ -9,7 +9,7 @@ import { IPerson } from '../interfaces/iperson';
   styleUrls: ['./modifyperson.component.css']
 })
 export class ModifypersonComponent implements OnInit {
-  baseURL = 'https://first-project-21048.firebaseio.com';
+  baseURL = 'https://httpdb-adc48.firebaseio.com';
   rootNode = 'people';
   refID: any;
 

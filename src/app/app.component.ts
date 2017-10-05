@@ -9,7 +9,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  baseURL = 'https://first-project-21048.firebaseio.com';
+  baseURL = 'https://httpdb-adc48.firebaseio.com';
   rootNode = 'people';
   dataCollection: IPerson[];
 

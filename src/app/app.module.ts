@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 import { DbService } from './services/db.service';
+//import { PagerService } from './services/pager.service';
 import { AppComponent } from './app.component';
 import { AddpersonComponent } from './addperson/addperson.component';
 import { ModifypersonComponent } from './modifyperson/modifyperson.component';

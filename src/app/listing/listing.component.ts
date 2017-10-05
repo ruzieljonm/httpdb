@@ -6,8 +6,9 @@ import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map'
 
+//import * as _ from 'underscore';  
 
-import { PagerService } from '../services/pager.service';
+//import { PagerService } from '../services/pager.service';
 
 
 @Component({
@@ -19,7 +20,7 @@ import { PagerService } from '../services/pager.service';
 export class ListingComponent implements OnInit {
   @Output() modifyClicked = new EventEmitter<any>();
 
-  baseURL = 'https://first-project-21048.firebaseio.com';
+  baseURL = 'https://httpdb-adc48.firebaseio.com';
   rootNode = 'people';
 
   peopleCollection: Array<IPerson> = [];
